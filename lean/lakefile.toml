@@ -1,0 +1,12 @@
+name = "erdos1047_max_nonconvex_fc"
+version = "0.1.0"
+defaultTargets = ["Erdos1047MaxNonConvexFC"]
+weakLeanArgs = ["-j1"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "d5ba143cc2fafd48cc6d5b6320a3aab287c38df7"
+
+[[lean_lib]]
+name = "Erdos1047MaxNonConvexFC"

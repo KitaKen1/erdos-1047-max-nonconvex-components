@@ -1,0 +1,12 @@
+name = "erdos1047_lean4web_435rc2"
+version = "0.1.0"
+defaultTargets = ["Erdos1047Lean4Web_v4_35_0_rc2"]
+weakLeanArgs = ["-j1"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.35.0-rc2"
+
+[[lean_lib]]
+name = "Erdos1047Lean4Web_v4_35_0_rc2"
